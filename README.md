@@ -5,9 +5,12 @@
 Inside `app` folder: `uvicorn main:app --reload`
 
 # RUN PYTEST
->[!NOTE] Run it as you want. This is only my preferences
+>[!NOTE] 
+Run it as you want. This is only my preferences
 
-`pytest -s -v --disable-pytest-warnings path/to/test_main.py`
+```
+pytest -s -v --disable-pytest-warnings path/to/test_main.py
+```
 
 ```
 -s: shows all aoutputs

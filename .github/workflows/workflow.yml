@@ -1,4 +1,4 @@
-name: MAIN TLOZ API
+name: DEV TLOZ API
 
 on:
   push:

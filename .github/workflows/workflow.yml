@@ -38,5 +38,5 @@ jobs:
       - name: 📁 Almanceando resultados... # Almacena los resultados de las pruebas
         uses: actions/upload-artifact@v4
         with:
-          name: test-results
+          name: pytest-results
           path: results/

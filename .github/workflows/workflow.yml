@@ -31,6 +31,7 @@ jobs:
 
       - name: 🐍 PYTHON - 🧪 Ejecutando pytests... # Ejecuta los pytests
         run: |
+          mkdir -p results
           pytest -s -v --disable-warnings app/tests/test_main.py | tee ${{ env.RESULTS_DIR }}/pytest-results.txt
         continue-on-error: true
       

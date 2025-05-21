@@ -3,7 +3,7 @@ name: MAIN TLOZ API
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   pytest:

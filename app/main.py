@@ -1,17 +1,23 @@
 from fastapi import FastAPI, Depends
-from sqlmodel import SQLModel, Session
+from sqlmodel import Session
 
-from app.database import engine, get_session
+from app.database import get_session
 from app.models import Character
-from app.schemas import CharacterCreate, CharacterRead
-from app.crud import get_characters, create_character
+from app.schemas import CharacterRead
+from app.crud import get_characters
+
+from sqlmodel import SQLModel
+from app.database import engine
 
 app = FastAPI()
 
-@app.on_event("startup")
-def crear_tablas():
-    SQLModel.metadata.create_all(engine)
-
-@app.get("/")
+@app.get("/greeting")
 async def greeting():
-    return {"message": """🤗 Hi! Hope you enjoy this TLOZ® API to play with! If you like this repository, please consider giving it a star ⭐!"""}
+    return {"message": "🤗 Hi! Hope you enjoy this TLOZ® API to play with! If you like this repository, please consider giving it a star ⭐!"}
+
+@app.get("/characters", response_model=list[CharacterRead])
+def read_characters(session: Session = Depends(get_session)):
+    characters = get_characters(session)
+    print("Characters found:", characters)
+    return characters
+

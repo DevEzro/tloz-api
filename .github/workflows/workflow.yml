@@ -20,10 +20,11 @@ jobs:
       - name: 🐍 Python - Instalando paquetes...
         run: |
           pip install -r requirements.txt
-          
-      - name: 🐍 Python - Ejecutando uvicorn...
+                
+      - name: 🐍 Python - Ejecutando uvicorn en background
         run: |
-          uvicorn app.main:app --reload
+          uvicorn app.main:app --reload &
+          sleep 5
 
       - name: 🐍 PYTHON - 🧪 Ejecutando pytests... # Ejecuta los pytests
         run: |

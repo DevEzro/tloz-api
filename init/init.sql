@@ -7,12 +7,22 @@ CREATE TABLE IF NOT EXISTS characters (
 
 INSERT INTO characters (name, race, location) VALUES
 ('Link', 'Hylian', 'All Hyrule'),
-('Zelda', 'Hylian', 'Hyrule Castle'),
+('Zelda', 'Hylian', 'Hyrule Castle / The Sages Chamber'),
+('Sheik', 'Sheika', 'All Hyrule'),
 ('Ganondorf', 'Gerudo', 'Gerudo Valley / Hyrule Castle'),
+
+('Mido', 'Kokiri', 'Kokiri Forest'),
+('Deku Tree', 'Tree', 'Kokiri Forest'),
+
+('Epona', 'Horse', 'Lon Lon Ranch / All Hyrule'),
+('Malon', 'Hylian', 'Lon Lon Ranch'),
+('Talon', 'Hylian', 'Lon Lon Ranch'),
+('Ingo', 'Hylian (dumbass)', 'Lon Lon Ranch'),
+
 ('Impa', 'Sheik', 'Hyrule Castle / Kakariko Village / The Sages Chamber'),
 ('Saria', 'Kokiri', 'Kokiri Forest / The Sages Chamber'),
-('Darunia', 'Goron', 'The Dead Montain'),
-('Ruto', 'Zora', 'Jabu Jabu Belly / Zora`s Domain'),
+('Darunia', 'Goron', 'The Dead Montain / The Sages Chamber'),
+('Ruto', 'Zora', 'Jabu Jabu Belly / Zora`s Domain / The Sages Chamber'),
 ('Nabooru', 'Gerudo', 'Gerudo Valley / The Sages Chamber'),
 ('Kaepora Gaebora / Rauru', 'Owl / Sage', 'Hyrule / The Sages Chamber');
 

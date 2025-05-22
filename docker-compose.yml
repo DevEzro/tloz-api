@@ -1,17 +1,27 @@
-version: '3.8'
-
 services:
   postgres:
     image: postgres:16
-    container_name: tloz_api_postgres
+    container_name: tloz-api-postgres
     environment:
       POSTGRES_USER: ganon
-      POSTGRES_PASSWORD: triforce
+      POSTGRES_PASSWORD: tr1f0rc3
       POSTGRES_DB: hyrule
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: tloz-api-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@hyrule.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
 
 volumes:
   postgres_data:

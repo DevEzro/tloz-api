@@ -4,6 +4,7 @@ Make sure to have this tools installed in your system:
 - Pip
 - Install python packages: ```pip install -r requirements.txt```
 
+# STEPS
 ## 1. Required installations
 - First make sure to install the packages with the command bellow.
 - If you want to manage the database with a pgadmin container but do not have one, uncomment the pgadmin section from the compose file. If not, proceed with the next steps.

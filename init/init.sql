@@ -31,19 +31,28 @@ CREATE TABLE IF NOT EXISTS objects (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100),
     damage INT,
+    age INT,
     location VARCHAR(100)
 );
 
-INSERT INTO objects (name, damage, location) VALUES
-('Deku Stick',1,'Kokiri Forest'),
-('Deku Nut',0,'Kokiri Forest'),
-('Fairy Slingshoot',1,'Inside Deku Tree - Kokiri Forest'),
-('Bombs',2,'Dodongo Cave - The Dead Mountain'),
-('Boomerang',0,'Jabu Jabu Belly'),
-('Hookshoot',1,'Kakariko Graveyard - Race against Dampe'),
-('Longshoot',NULL,'Water Temple'),
-('Kokiri Sword',NULL,'Kokiri Forest'),
-('Kokiri Sword',NULL,'Kokiri Forest');
+INSERT INTO objects (name, damage, age, location) VALUES
+('Kokiri Sword',1,'Child','Kokiri Forest - Training Field'),
+('Deku Stick',2,'Child','Kokiri Forest'),
+('Deku Nut',NULL,'Child / Adult','Kokiri Forest'),
+('Bombs',2,'Child / Adult','Dodongo Cave - The Dead Mountain'),
+('Fairy Slingshoot',1,'Child','Inside Deku Tree - Kokiri Forest'),
+('Fairy Ocarina',NULL,'Child / Adult','Kokiri Forest - Leaving Kokiris and Saria'),
+('Bombuchus',2,'Child / Adult','Market - Bullseye Shop'),
+('Hookshoot',2,'Adult','Kakariko Graveyard - Race against Dampe'),
+('Longshoot',2,'Adult','Water Temple'),
+('Boomerang',1,'Child','Jabu Jabu Belly'),
+('Master Sword',1,'Child / Adult','Temple of Time - Ganondorf betrays Hyrule King'),
+('Truth Lens',NULL,'Child / Adult','Kakariko Village - Kakariko Well'),
+('Magic Beans',NULL,'Child','Zora River - Bean Seller'),
+('Megaton Hammer',2,'Adult','Fire Temple');
+
+
+
 
 -- CREATE TABLE IF NOT EXISTS bosses (
 --     id SERIAL PRIMARY KEY,

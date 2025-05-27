@@ -12,9 +12,15 @@ Make sure to have this tools installed in your system:
 
 >[!NOTE] 
 For those who have a pgadmin container, you can manage this database by adding it to a new connection, but first you would need to create a docker network. For that follow the next steps:
-- ```docker network create <custom_docker_network>```
-- ```docker network connect <custom_docker_network> <docker_container>```
-- ```docker network connect <custom_docker_network> <your_pgadmin_container>```
+```
+docker network create <custom_docker_network>
+```
+```
+docker network connect <custom_docker_network> <docker_container>
+```
+```
+docker network connect <custom_docker_network> <your_pgadmin_container>
+```
 
 - Later, in your pgadmin instance, add a new connection with the specifications insde the compose file:
     - General Tab
@@ -30,7 +36,9 @@ For those who have a pgadmin container, you can manage this database by adding i
 
 ## 2. Run FastAPI
 Is required to run FastAPI locally. For this, run inside the `app` folder:
-```uvicorn main:app --reload```
+```
+uvicorn main:app --reload
+```
 
 ## 3. Try the API and DB connection
 Search for `localhost:8000/docs` to access FastAPI and try it by executing the GET endpoints.

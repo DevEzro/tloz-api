@@ -35,7 +35,7 @@ Is required to run FastAPI locally. For this, run inside the `app` folder:
 ## 3. Try the API and DB connection
 Search for `localhost:8000/docs` to access FastAPI and try it by executing the GET endpoints.
 
-# EXTRA: PYTEST
+## EXTRA: PYTEST
 >[!NOTE] 
 The `app/tests` contains a test file to try pytests. Run it as you want. This is only of my preference:
 

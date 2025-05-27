@@ -14,7 +14,7 @@ services:
 
   # pgadmin:
   #   image: dpage/pgadmin4
-  #   container_name: pgadmin
+  #   container_name: tloz-api-pgadmin
   #   restart: always
   #   ports:
   #     - "8080:80"

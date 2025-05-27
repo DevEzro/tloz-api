@@ -8,9 +8,9 @@ Make sure to have this tools installed in your system:
 ## 1. Required installations
 - First make sure to install the packages with the command bellow.
 - If you want to manage the database with a pgadmin container but do not have one, uncomment the pgadmin section from the compose file. If not, proceed with the next steps.
-- Run ```docker compose up -d``` to start the postgres container inside the compose file.
+- Run ```docker compose up -d``` to start the postgres container inside the compose file. By running this, the `init/init.sql` file will create the tables and values of these in the database automatically.
 
->[!NOTE] 
+>[!IMPORTANT] 
 For those who have a pgadmin container, you can manage this database by adding it to a new connection, but first you would need to create a docker network. For that follow the next steps:
 ```
 docker network create <custom_docker_network>

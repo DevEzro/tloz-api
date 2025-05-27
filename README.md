@@ -6,6 +6,7 @@ Make sure to have this tools installed in your system:
 
 ## 1. Required installations
 - First make sure to install the packages with the command bellow.
+- If you want to manage the database with a pgadmin container but do not have one, uncomment the pgadmin section from the compose file. If not, proceed with the next steps.
 - Run ```docker compose up -d``` to start the postgres container inside the compose file.
 
 >[!NOTE] 

@@ -2,7 +2,11 @@ from fastapi import FastAPI
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-app = FastAPI()
+app = FastAPI(
+    title = "The Legend Of Zelda® Custom API",
+    description = "The Legend of Zelda® API. An API to test this game custom databse",
+    version = "0.1.0"
+)
 
 @app.get("/greeting")
 async def greeting():

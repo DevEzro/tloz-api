@@ -1,4 +1,4 @@
-import requests
+import requests, json
 
 API_URL = "http://localhost:8000"
 
@@ -13,7 +13,7 @@ def test_get_greeting():
     data = response.json()
     
     if response.status_code == 200:
-        print(f"RESPONSE: {response.status_code}\nDATA: {data}")
+        print(f"RESPONSE: {response.status_code}\nDATA: {json.dumps(data, indent=4, ensure_ascii=False)}")
 
 def test_get_characters():
     print(f"\n===================== [📥 GET CHARACTERS] =====================")
@@ -22,7 +22,7 @@ def test_get_characters():
     data = response.json()
     
     if response.status_code == 200:
-        print(f"RESPONSE: {response.status_code}\nDATA: {data}")
+        print(f"RESPONSE: {response.status_code}\nDATA: {json.dumps(data, indent=4, ensure_ascii=False)}")
         
 def test_get_objects():
     print(f"\n===================== [📥 GET OBJECTS] =====================")
@@ -31,4 +31,4 @@ def test_get_objects():
     data = response.json()
     
     if response.status_code == 200:
-        print(f"RESPONSE: {response.status_code}\nDATA: {data}")
+        print(f"RESPONSE: {response.status_code}\nDATA: {json.dumps(data, indent=4, ensure_ascii=False)}")

@@ -39,17 +39,36 @@ INSERT INTO objects (name, damage, age, location) VALUES
 ('Kokiri Sword',1,'Child','Kokiri Forest - Training Field'),
 ('Deku Stick',2,'Child','Kokiri Forest'),
 ('Deku Nut',NULL,'Child / Adult','Kokiri Forest'),
-('Bombs',2,'Child / Adult','Dodongo Cave - The Dead Mountain'),
-('Fairy Slingshoot',1,'Child','Inside Deku Tree - Kokiri Forest'),
+('Slingshoot',1,'Child','Inside Deku Tree - Kokiri Forest'),
 ('Fairy Ocarina',NULL,'Child / Adult','Kokiri Forest - Leaving Kokiris and Saria'),
-('Bombuchus',2,'Child / Adult','Market - Bullseye Shop'),
-('Hookshoot',2,'Adult','Kakariko Graveyard - Race against Dampe'),
-('Longshoot',2,'Adult','Water Temple'),
+
+('Bombs',2,'Child / Adult','Dodongo Cave - The Dead Mountain'),
+
 ('Boomerang',1,'Child','Jabu Jabu Belly'),
+
+('Ocarina Of Time',NULL,'Child / Adult','Hyrule Field - Throwed by Zelda to the Castle Pit'),
 ('Master Sword',1,'Child / Adult','Temple of Time - Ganondorf betrays Hyrule King'),
+
+('Hookshoot',2,'Adult','Kakariko Graveyard - Race against Dampe'),
+
+('Arrow',2,'Adult','Forest Temple'),
+
+('Megaton Hammer',2,'Adult','Fire Temple'),
+
+('Longshot',2,'Adult','Water Temple'),
+
 ('Truth Lens',NULL,'Child / Adult','Kakariko Village - Kakariko Well'),
+('Bombuchus',2,'Child / Adult','Market - Bullseye Shop'),
 ('Magic Beans',NULL,'Child','Zora River - Bean Seller'),
-('Megaton Hammer',2,'Adult','Fire Temple');
+
+('Giants Knife',4,'Adult','Goron City - Medigoron'),
+('Giants Knife (broken)',1,'Adult','Goron City - Medigoron'),
+('Biggoron Sword',4,'Adult','Goron City - Medigoron'),
+
+('Fire Arrow',4,'Adult','Lake Hylia - Shooting an arroy in the sunrise'),
+('Ice Arrow',4,'Adult','Gerudo Fortress - Gerundo Training Ground'),
+('Light Arrow',2,'Adult','Temple Of Time - After sages have been awakened');
+
 
 
 

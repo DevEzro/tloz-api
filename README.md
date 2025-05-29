@@ -9,6 +9,9 @@
 Make sure to have this tools installed in your system:
 - 🐳 Docker
 - 📦 Pip
+- 🐍 Python (Recommended Python3)
+
+For the Python venv run : `python3 -m venv <your_venv_name>`
 
 <br>
 <br>

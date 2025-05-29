@@ -1,4 +1,5 @@
 requests
+psycopg2
 sqlmodel
 fastapi[standard]
 pytest

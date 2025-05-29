@@ -22,16 +22,17 @@ For the Python venv run : `python3 -m venv <your_venv_name>`
 ```
 pip install -r requirements.txt
 ```
+
 - 🐳 Run `docker compose` command bellow:
+>[!IMPORTANT]
+Before running the `docker compose` command, If you don't mind or don't want to manage the database with the pgadmin container inside the compose file, just comment the pgadmin section.
+
 ```
 docker compose up -d
 ``` 
 
 >[!NOTE]
 This will start the postgres container inside the compose file. By running this, the `init/init.sql` file will create the tables and values of these in the database automatically.
-
->[!IMPORTANT]
-If you don't want to manage the database with the pgadmin container inside the compose file, just comment the pgadmin section.
 
 >[!TIP] 
 >For those who have already a pgadmin container, you can manage this database by adding it to a new connection, but first you will need to create a docker network. For that follow the next steps:

@@ -43,31 +43,21 @@ INSERT INTO objects (name, damage, age, location, condition) VALUES
 ('Deku Nut',NULL,'Child / Adult','Kokiri Forest','Before Deku Tree visit'),
 ('Fairy Slingshoot',1,'Child','Kokiri Forest','nside Deku Tree'),
 ('Fairy Ocarina',NULL,'Child / Adult','Kokiri Forest','Leaving Kokiris and Saria'),
-
 ('Goron Bracelet',NULL,'Child','Goron City','Darunia´s gift'),
 ('Bomb Bag',2,'Child / Adult','Dodongo Cave','After talking Darunia'),
-
 ('Boomerang',1,'Child','Jabu Jabu Belly'),
-
 ('Ocarina Of Time',NULL,'Child / Adult','Hyrule Field - Throwed by Zelda to the Castle Pit'),
 ('Master Sword',1,'Child / Adult','Temple of Time - Ganondorf betrays Hyrule King'),
-
 ('Hookshoot',2,'Adult','Kakariko Graveyard - Race against Dampe'),
-
 ('Arrow',2,'Adult','Forest Temple'),
-
 ('Megaton Hammer',2,'Adult','Fire Temple'),
-
 ('Longshot',2,'Adult','Water Temple'),
-
 ('Truth Lens',NULL,'Child / Adult','Kakariko Village - Kakariko Well'),
 ('Bombuchus',2,'Child / Adult','Market - Bullseye Shop'),
 ('Magic Beans',NULL,'Child','Zora River - Bean Seller'),
-
 ('Giants Knife',4,'Adult','Goron City - Medigoron'),
 ('Giants Knife (broken)',1,'Adult','Goron City - Medigoron'),
 ('Biggoron Sword',4,'Adult','Goron City - Medigoron'),
-
 ('Fire Arrow',4,'Adult','Lake Hylia - Shooting an arroy in the sunrise'),
 ('Ice Arrow',4,'Adult','Gerudo Fortress - Gerundo Training Ground'),
 ('Light Arrow',2,'Adult','Temple Of Time - After sages have been awakened');

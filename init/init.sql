@@ -70,9 +70,6 @@ INSERT INTO objects (name, damage, age, location) VALUES
 ('Light Arrow',2,'Adult','Temple Of Time - After sages have been awakened');
 
 
-
-
-
 -- CREATE TABLE IF NOT EXISTS bosses (
 --     id SERIAL PRIMARY KEY,
 --     name VARCHAR(100),

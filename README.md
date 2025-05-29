@@ -1,7 +1,6 @@
-<div style="text-align:center">
-  <img src="tloz_api.png" width="150"/>
-  
-</div>
+<p align="center">
+  <img src="tloz_api.png" width="200">
+</p>
 
 <br>
 <br>

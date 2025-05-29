@@ -32,17 +32,20 @@ CREATE TABLE IF NOT EXISTS objects (
     name VARCHAR(100),
     damage INT,
     age INT,
-    location VARCHAR(100)
+    location VARCHAR(100),
+    condition VARCHAR(100)
 );
 
-INSERT INTO objects (name, damage, age, location) VALUES
-('Kokiri Sword',1,'Child','Kokiri Forest - Training Field'),
-('Deku Stick',2,'Child','Kokiri Forest'),
-('Deku Nut',NULL,'Child / Adult','Kokiri Forest'),
-('Slingshoot',1,'Child','Inside Deku Tree - Kokiri Forest'),
-('Fairy Ocarina',NULL,'Child / Adult','Kokiri Forest - Leaving Kokiris and Saria'),
+INSERT INTO objects (name, damage, age, location, condition) VALUES
+('Kokiri Sword',1,'Child','Kokiri Forest','Training Field'),
+('Deku Shield',NULL,'Child','Kokiri Forest','Shop'),
+('Deku Stick',2,'Child','Kokiri Forest','Before Deku Tree visit'),
+('Deku Nut',NULL,'Child / Adult','Kokiri Forest','Before Deku Tree visit'),
+('Fairy Slingshoot',1,'Child','Kokiri Forest','nside Deku Tree'),
+('Fairy Ocarina',NULL,'Child / Adult','Kokiri Forest','Leaving Kokiris and Saria'),
 
-('Bombs',2,'Child / Adult','Dodongo Cave - The Dead Mountain'),
+('Goron Bracelet',NULL,'Child','Goron City','Darunia´s gift'),
+('Bomb Bag',2,'Child / Adult','Dodongo Cave','After talking Darunia'),
 
 ('Boomerang',1,'Child','Jabu Jabu Belly'),
 

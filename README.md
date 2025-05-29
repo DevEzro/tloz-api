@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="tloz_api.png" width="200">
+  <img src="tloz_api.png" width="500">
 </p>
 
 <br>

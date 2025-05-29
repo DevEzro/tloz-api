@@ -41,7 +41,7 @@ INSERT INTO objects (name, damage, age, location, condition) VALUES
 ('Deku Shield',NULL,'Child','Kokiri Forest','Shop'),
 ('Deku Stick',2,'Child','Kokiri Forest','Before Deku Tree visit'),
 ('Deku Nut',NULL,'Child / Adult','Kokiri Forest','Before Deku Tree visit'),
-('Fairy Slingshoot',1,'Child','Kokiri Forest','nside Deku Tree'),
+('Fairy Slingshot',1,'Child','Kokiri Forest','Inside Deku Tree'),
 ('Fairy Ocarina',NULL,'Child / Adult','Kokiri Forest','Leaving Kokiris and Saria'),
 ('Goron Bracelet',NULL,'Child','Goron City','Darunia´s gift'),
 ('Bomb Bag',2,'Child / Adult','Dodongo Cave','After talking Darunia'),

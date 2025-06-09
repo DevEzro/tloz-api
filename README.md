@@ -78,7 +78,7 @@ The `app/tests` contains a test file to try pytests. Run it as you want. This is
 pytest -s -v --disable-pytest-warnings path/to/test_main.py
 ```
 
-To understand the command bellow:
+To understand the command above:
 ```
 -s: shows all aoutputs
 -v: makes outputs more verbose

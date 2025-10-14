@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="tloz_api.png" width="500">
+  <img 
+    src="./assets/tloz_api_v2.png" width="250">
+  </img>
 </p>
 
 <br>

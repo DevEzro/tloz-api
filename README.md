@@ -74,7 +74,7 @@ Search for `localhost:8000/docs` to access FastAPI and try it by executing the G
 <br>
 
 # 🧪 EXTRA: PYTEST
-The `app/tests` contains a test file to try pytests. Run it as you want. This is only of my preference:
+The `app/tests` contains a test file to try pytests. You're free to modify it. Run it as you want, this is only of my preference:
 
 ```
 pytest -s -v --disable-pytest-warnings path/to/test_main.py
@@ -82,7 +82,7 @@ pytest -s -v --disable-pytest-warnings path/to/test_main.py
 
 To understand the command above:
 ```
--s: shows all aoutputs
+-s: shows all outputs
 -v: makes outputs more verbose
 --disable-pytest-warnings: does not show anoying and irrelevant warnings
 ```

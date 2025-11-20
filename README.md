@@ -1,6 +1,6 @@
 <p align="center">
   <img 
-    src="./assets/tloz_api_v2.png" width="250">
+    src="./assets/tloz_api_v2.png" width="400">
   </img>
 </p>
 

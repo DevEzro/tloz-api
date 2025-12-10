@@ -10,7 +10,7 @@ INSERT INTO characters (name, race, location) VALUES
 ('Zelda','Hylian','Hyrule Castle / The Sages Chamber'),
 ('Sheik','Sheika','All Hyrule'),
 ('Ganondorf','Gerudo','Gerudo Valley / Hyrule Castle'),
-('Ganon','Beast/The Demon King','Gerudo Valley / Hyrule Castle'),
+('Ganon','The Demon King','Gerudo Valley / Hyrule Castle'),
 
 ('Mido','Kokiri','Kokiri Forest'),
 ('Deku Tree','Tree','Kokiri Forest'),
@@ -20,11 +20,11 @@ INSERT INTO characters (name, race, location) VALUES
 ('Talon','Hylian','Lon Lon Ranch'),
 ('Ingo','Hylian (dumbass)','Lon Lon Ranch'),
 
-('Impa','Sheik','Hyrule Castle / Kakariko Village / The Sages Chamber'),
-('Saria','Kokiri','Kokiri Forest / The Sages Chamber'),
-('Darunia','Goron','The Dead Montain / The Sages Chamber'),
-('Ruto','Zora','Jabu Jabu Belly / Zora`s Domain / The Sages Chamber'),
-('Nabooru','Gerudo','Gerudo Valley / The Sages Chamber'),
+('Impa','Sheik / Sage','Hyrule Castle / Kakariko Village / The Sages Chamber'),
+('Saria','Kokiri / Sage','Kokiri Forest / The Sages Chamber'),
+('Darunia','Goron / Sage','The Dead Montain / The Sages Chamber'),
+('Ruto','Zora / Sage','Jabu Jabu Belly / Zora`s Domain / The Sages Chamber'),
+('Nabooru','Gerudo / Sage','Gerudo Valley / The Sages Chamber'),
 ('Kaepora Gaebora / Rauru','Owl / Sage','Hyrule / The Sages Chamber');
 
 CREATE TABLE IF NOT EXISTS objects (
@@ -81,3 +81,4 @@ INSERT INTO objects (name, damage, age, location, condition) VALUES
 --     location VARCHAR(100),
 --     sage VARCHAR(100)
 -- );
+

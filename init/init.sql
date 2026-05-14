@@ -33,10 +33,10 @@ CREATE TABLE IF NOT EXISTS objects (
     damage INT,
     age VARCHAR(100),
     location VARCHAR(100),
-    condition VARCHAR(100)
+    conditions VARCHAR(100)
 );
 
-INSERT INTO objects (name, damage, age, location, condition) VALUES
+INSERT INTO objects (name, damage, age, location, conditions) VALUES
 ('Kokiri Sword',1,'Child','Kokiri Forest','Training Field'),
 ('Deku Shield',NULL,'Child','Kokiri Forest','Shop'),
 ('Deku Stick',2,'Child','Kokiri Forest','Before Deku Tree visit'),
